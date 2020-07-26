@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    color:rgb(82, 2, 64);
+    font-size:18px;
+    margin-top: 3px;
+}
+#header{
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+
+.Cntnr6 {
+    position: relative;
+    margin: 12px 0px 14px 0px;
+    left: 0px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+    padding: 30px;
+    padding-top:20px;
+}
+
+.container{
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    
+
+}
+
+.container2{
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    
+}
+
+header{
+    display: flex;
+}
+section{
+    display: flex;
+}
+
+.c1bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.75); opacity: 0.8;
+    border-radius: 5px 5px 5px 5px;
+    border: 0px solid rgba(212, 211, 211, 1);           
+    background-image: url(https://static.parastorage.com/services/skins/2.1229.80/images/wysiwyg/core/themes/base/apple_box.png);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+}
+
+.contenido{
+    height: auto;
+    width: 980px;
+    position: relative;
+    display: grid;
+}
+
+.textoTitulo{
+    position: relative;
+    margin: 0px 0px 5px 0;
+    left: 80px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+    color: #6E2B57;
+    font-size: 14px;
+}
+
+#titulo{
+    position: relative;
+    margin: 14px 0px 6px 0;
+    left: 48px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+.ulOpc{
+    width: calc(100% - 0px);
+    height: calc(100% - 0px);
+    white-space: nowrap;
+    display: inline-block;
+    overflow: visible;
+    position: relative;
+    
+}
+
+.ulOpc li{
+    
+    display: inline-block; 
+    cursor: pointer;
+    font: normal normal normal 15px/1.2em 'Open Sans',sans-serif;
+    width: 130px;
+    height: 36px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: visible;
+    padding-left: 22%;
+    color: rgb(31, 31, 211);
+
+}
+
+.opciones{
+    z-index: 99999;
+    display: block;
+    opacity: 1;
+    position: absolute;
+    margin-top: 7px;
+    visibility: hidden;
+    left: 50px;
+    right: auto;
+    bottom: 36px;
+    display: grid;
+   
+}
+.opciones ul{
+    padding: 10px;
+}
+.opciones ul li {
+    display: inline-table;
+}
+
+.opc2{
+    overflow: visible;
+    display: inherit;
+    white-space: nowrap;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 0;
+    left: 167px;
+    right: auto;
+}
+
+.modal-header, h5, .close {
+    background-color: #3d0531;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-footer {
+    background-color: #f9f9f9;
+    align-self: center;
+  }
+  .form-control{
+      min-width:100%;
+  }
+
+  .modal-header h5{
+    text-align: center;
+    width: 100%;
+  }
+
+
+a:focus {
+    background-color:#000!important;
+}
+#lo{
+
+flood-opacity: unset;
+}
+body{
+    background: image-set(imagenes/34.jpg);
+    margin: 0;
+    box-sizing: border-box;
+}
+#espacio{
+    background:#E0EDF6;
+    width: 100%;
+    height: 250px;
+   
+}
+
+#parrafo{
+    padding-top: 2%;
+    float: left;
+    padding-left: 5%;
+  
+}
+#empresaria{
+  float: left;
+
+}
+#espacio2{
+    background:#F4E0F6;
+    width: 100%;
+    height: 250px;
+
+  
+}
+    
+
+#parrafo2{
+    padding-top: 2%;
+    float: left;
+}
+#empresaria1{
+    float: left;
+    padding-left: 40%;
+}
+#espacio3{
+    background:#F6E9E0;
+    width: 100%;
+    height: 250px;
+  
+}
+    
+
+#parrafo3{
+    padding-top: 2%;
+    padding-left: 20%;
+}
+#espacio4{
+    background: black;
+    width: 100%;
+    height: 50px;  
+}
+#espaciocompartido{
+    background: white;
+    width: 100%;
+    height: 300px;  
+}
+#tono{
+    background: #BDF15C;
+    width: 33%;
+    height: 300px;
+    float: left;
+}
+#tono2{
+    background: #5CF1DB;
+    width: 34%;
+    height: 300px;
+    float: left;
+}
+#tono3{
+    background:#905CF1;
+    width: 33%;
+    height: 300px;
+    float: left;
+}
+div{
+    display: inline-table;
+    
+}
+@media screen and (min-width: 480px){
+    #empresaria, #empresaria1, #parrafo, #parrafo2, #parrafo3{
+        width: 100%;
+
+    }
+
+}
+@media screen and (min-width: 780px){
+    
+}
+@media screen and (min-width: 1024px){
+    
+}
+
+    

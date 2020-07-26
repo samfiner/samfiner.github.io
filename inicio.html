@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/inicio.css" @media>
+    <link rel="stylesheet" href="css/swiper.min.css" >
+
+
+    
+   
+</head>
+<body  background="imagenes/34.jpg">
+    <div class="container">
+        <header>
+            <div style="margin-left:calc((100% - 980px) / 2)" id="SITE_HEADERbg" class="fc1bg"></div>
+            <div id="header">
+                <div class="Cntnr6">
+                    <div id="Cntnr6bg" class="c1bg"></div>
+                    <div class="contenido">
+                        <div id="titulo">
+                            <img id="lo" src="imagenes/logo.png" width="200" height="120" /> 
+                        </div>
+                       
+                        <div>
+                            <ul class="ulOpc">
+                                <li><a href="#">Inicio</a></li>
+                                <li><a href="#">Planes</a></li>
+                                <li><a href="#">galeria</a></li>
+                                
+                                
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>       
+    </div>
+
+    
+
+    <div class="container2">
+        <section>
+                <div style="margin-left:calc((100% - 980px) / 2)" id="SITE_HEADERbg" class="fc1bg"></div>
+          <div id="section"></div> 
+               <div class="Cntnr6"> 
+                    <div id="Cntnr6bg" class="c1bg"></div>
+                    <div class="contenido"> 
+                          <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(./imagenes/imagen1.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./imagenes/imagen3.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./imagenes/imagen6.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./imagenes/imagen2.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./imagenes/imagen4.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./imagenes/imagen8.png)"></div>
+      <div class="swiper-slide" style="background-image:url(./imagenes/imagen5.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./imagenes/imagen7.jpg)"></div>
+    
+                  </div>
+              </div>
+           </div>
+        </div>
+    </section>
+</div>
+<div id="espaciocompartido">
+<div id="tono">
+
+</div>
+
+<div id="tono2">
+
+</div>
+<div id="tono3">
+    
+</div>
+
+</div>
+
+    <div id="espacio">
+    
+  <div id="empresaria"><img src="imagenes/empresaria.png" alt="" width="400px" height="250px"></div>       
+<div id="parrafo">
+    <font size="4"> <strong><p>Quienes somos..?</p></strong></font>
+     <p>somos una empresa creada para el turismo</p>
+     <p>somos una empresa creada para el turismo</p>
+     <p>somos una empresa creada para el turismo</p>
+     <p>somos una empresa creada para el turismo</p>
+     <p>somos una empresa creada para el turismo</p>
+     </div>
+    </div>
+
+    
+      
+    <div id="espacio2">
+   
+      <div id="empresaria1"><img src="imagenes/empresario1.png" alt="" width="400px" height="250px"></div>
+   <div id="parrafo2">
+  <font size="4"> <strong><p>Hacia donde vamos..?</p></strong></font>
+   <p>somos una empresa creada para el turismo</p>
+   <p>somos una empresa creada para el turismo</p>
+   <p>somos una empresa creada para el turismo</p>
+   <p>somos una empresa creada para el turismo</p>
+   <p>somos una empresa creada para el turismo</p>
+   </div>
+   </div>
+
+      
+   <div id="espacio3">
+   
+  
+    <div id="parrafo3">
+   <font size="4"> <strong><p>Como lo estamos haciendo..?</p></strong></font>
+    <p>somos una empresa creada para el turismo</p>
+    <p>somos una empresa creada para el turismo</p>
+    <p>somos una empresa creada para el turismo</p>
+    <p>somos una empresa creada para el turismo</p>
+    <p>somos una empresa creada para el turismo</p>
+    </div>
+    </div>
+    <div id="espacio4">
+
+    </div>
+
+
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <script>
+        function abrirmenu(){
+            var mostrar = document.getElementsByClassName("opciones");
+            console.log(mostrar);
+            mostrar[0].style.visibility = "inherit";
+        }
+
+        function quitarmenu(){
+            var mostrar = document.getElementsByClassName("opciones");
+            console.log(mostrar);
+            mostrar[0].style.visibility = "hidden";
+        }
+      </script>
+    <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+</html>
